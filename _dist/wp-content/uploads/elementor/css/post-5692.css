@@ -1,0 +1,15 @@
+/* Start custom CSS */li.woocommerce-MyAccount-navigation-link--downloads {
+    display: none!important;
+}
+
+table, tbody th, tbody td, tbody tr, thead th, thead tr, tfoot tr, tfoot th, tfoot td { 
+border: 0px!important;
+}
+
+.main-content nav.woocommerce-MyAccount-navigation {
+border-bottom: 3px solid #ebb303!important;
+}
+
+.main-content nav.woocommerce-MyAccount-navigation li.is-active {
+    border-color: #14612d!important;
+}/* End custom CSS */
