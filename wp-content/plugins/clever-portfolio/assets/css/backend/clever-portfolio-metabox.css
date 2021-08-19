@@ -1,0 +1,72 @@
+#clever-portfolio-options-metabox .tabs {
+  border-bottom: 1px solid #ddd; }
+  #clever-portfolio-options-metabox .tabs li {
+    cursor: pointer;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-right: .5px; }
+    #clever-portfolio-options-metabox .tabs li.tab-active {
+      background-color: #fff; }
+#clever-portfolio-options-metabox .meta-table td {
+  padding: 10px 0;
+  width: 85%; }
+  #clever-portfolio-options-metabox .meta-table td.text-align-top {
+    font-weight: 600;
+    vertical-align: text-top;
+    width: 25%; }
+#clever-portfolio-options-metabox .select-img {
+  margin: 0 5px;
+  border: 3px solid transparent; }
+  #clever-portfolio-options-metabox .select-img:first-child {
+    margin-left: 0; }
+#clever-portfolio-options-metabox .selected-img {
+  border: 3px solid #46b450; }
+
+.ui-datepicker {
+  background-color: #f4f4f4; }
+  .ui-datepicker .ui-datepicker-header {
+    background-color: #23282d;
+    padding: 10px; }
+    .ui-datepicker .ui-datepicker-header a {
+      color: #fff;
+      cursor: pointer; }
+    .ui-datepicker .ui-datepicker-header .ui-datepicker-next {
+      float: right; }
+    .ui-datepicker .ui-datepicker-header .ui-datepicker-title {
+      color: #fff;
+      text-align: center; }
+  .ui-datepicker .ui-datepicker-calendar {
+    padding: 10px; }
+    .ui-datepicker .ui-datepicker-calendar th, .ui-datepicker .ui-datepicker-calendar td {
+      padding: 3px; }
+
+#media-container {
+  width: 100%;
+  display: inline-block; }
+
+.cp-gallery-item {
+  display: inline-block;
+  margin: 0 5px 5px 0px;
+  position: relative;
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  float: left; }
+  .cp-gallery-item .cp-remove-gallery-item {
+    width: 30px;
+    height: 30px;
+    top: 0;
+    right: 0;
+    text-align: center;
+    line-height: 30px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    display: block;
+    opacity: 0;
+    transition: 300ms; }
+    .cp-gallery-item .cp-remove-gallery-item:hover {
+      background: rgba(0, 0, 0, 0.8); }
+  .cp-gallery-item:hover .cp-remove-gallery-item {
+    opacity: 1; }
